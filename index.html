@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+
+    <script src="script.js" type=module defer></script>
+</head>
+<body>
+      <div class="chartCard" id="CC">
+        <div  class="chartBox" id="CB">
+          <canvas id="myChart" aria-label="Gantt chart showing tasks allocated" role="Chart"><p>Gantt chart showing tasks allocated is meant to be here</p></canvas>
+        </div>
+      </div>
+      <div class="buttonMenu" id="BM">
+        <button id="Add">Add Task</button>
+        <button id="Remove">Remove Task</button>
+        <button id="LightMode">Switch Light Mode</button>
+        <button id="textIncrease">Increase text +</button>
+        <button id="textDecrease">Decrease Text -</button>
+      </div>
+
+    <div id="people"></div>
+
+</body>
+</html>

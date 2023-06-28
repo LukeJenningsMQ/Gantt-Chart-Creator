@@ -1,0 +1,151 @@
+
+body{
+  background-color: rgb(249, 247, 240);
+}
+.detailed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+}
+
+.BlackBG {
+  background-color: black;
+}
+
+button {
+  background-color: rgb(15, 89, 103);
+  border-color:  rgb(15, 89, 103);
+  border-radius: 25px;
+  padding: 5px;
+  width: 50%;
+  margin: 5px;
+  color: white;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: var(--hover, #0d3945)!important;
+  border-color: rgb(13, 57, 69);
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease 0s;
+  color: white ;
+}
+
+#people button:hover {
+  background-color:  var(--hover, #0d3945)!important;
+  border-color: rgb(13, 57, 69);
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .chartCard {
+    width: 100vw;
+    padding-top: 10px;
+    height: 100%;
+    background: rgb(249, 247, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .chartBox {
+    width: 80%;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    border: solid 3px rgba(15, 89, 103,1);
+    background: white;
+    opacity: 1;
+  }
+  .buttonMenu {
+    width: 100vw;
+    padding:10px;
+    height: 100%;
+    background: rgb(249, 247, 240);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #people{
+    width: 100vw;
+    padding:10px;
+    height: 100%;
+    background: #F9F7F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #people button {
+    background-color: rgb(15, 89, 103);
+    border-color: rgb(15, 89, 103);
+    border-radius: 25px;
+    padding: 5px;
+    width: 20%;
+    margin: 5px;
+    color: white;
+  }
+  #people input {
+    background-color: rgb(15, 89, 103);
+    border-color: rgb(15, 89, 103);
+    border-radius: 25px;
+    padding: 5px;
+    width: 20%;
+    margin: 5px;
+    color: white;
+  }
+
+  #people input:focus {
+    background-color: var(--hover, #0d3945)!important;
+    border-color: rgb(13, 57, 69);
+    border-radius: 25px;
+    padding: 5px;
+    width: 20%;
+    margin: 5px;
+    color: white;
+  }
+
+  #people select {
+      background-color: rgb(15, 89, 103);
+      border-color: rgb(15, 89, 103);
+      border-radius: 25px;
+      padding: 5px;
+      width: 20%;
+      margin: 5px;
+      color: white;
+  }
+
+  #people select:focus {
+    background-color: var(--hover, #0d3945) !important;
+    border-color: rgb(13, 57, 69);
+    border-radius: 25px;
+    padding: 5px;
+    width: 20%;
+    margin: 5px;
+    color: white;
+}
+
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--c, white);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--c, white);
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: var(--d, white);
+  }
