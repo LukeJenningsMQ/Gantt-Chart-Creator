@@ -81,7 +81,7 @@ It was great learning about the importance of UI and UX on a web page. As it hel
 
 # 6. My CPD Project
 This section will go over the product that I created using what I learned. 
-Initial interface
+# Initial interface
 ![image](https://github.com/LukeJenningsMQ/Gantt-Chart-Creator/assets/61956662/9db85c96-db30-409f-842b-53a744c87b16)
 
 # Adding Tasks
